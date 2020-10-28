@@ -1,0 +1,182 @@
+
+html, body, menu {
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  font-family: "Bell MT";
+  font-size: 15px;
+  color: black;
+}
+
+body td a {
+  font-size: 18px;
+  font-family: "Jauria";
+  font-weight: bold;
+  color: black;
+}
+
+.titulo_principal {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.old {
+  font-family: "oldnewspapertypes";
+  font-size: 14px;
+}
+
+.elemento {
+  padding-top: 50px;
+}
+
+.copyright {
+  padding-top: 50px;
+  padding-bottom: 5px;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: "Bell MT";
+  font-size: 15px;
+}
+
+.contentinfo {
+  margin-left: 3%;
+}
+
+/* Columnas - triple */
+.column {
+  float: left;
+  width: 31%;
+  margin: 1%;
+}
+
+/* Columnas -  dobles */
+.column2 {
+  float: left;
+  width: 50%;
+  margin: 1%;
+}
+      
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+}
+
+/* Imagenes para Artwork */
+.imagenes { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 3px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.imagenes:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+}
+
+.icono {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.main {
+  padding: 0px 60px;
+  margin-top: 2%;
+}
+
+/* Corrección menú */
+.menu_header a {
+  text-decoration: none;
+}
+
+.menu_header a:hover{
+  opacity: 50%;
+}
+
+.specific {
+  width: 70%;
+}
+
+/* Sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 20%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  border-right-color: #e7d499;
+  border-right-style: solid;
+  border-right-width: 2px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidenav a {
+  padding: 6px 8px 10px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-family: "Jauria";
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
+}
+
+.sidenav a:hover{
+  opacity: 50%;
+}
+
+.sidenav p {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  font-family: "Bell MT";
+  color: black;
+}
+
+.sidenav img {
+  width: 90%;
+}
+
+/* Contenido sin columnas */
+
+.bloque { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.exception {
+  margin-right: 15%;
+}
